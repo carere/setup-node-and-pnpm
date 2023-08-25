@@ -1,0 +1,16 @@
+{
+  "name": "setup-node-and-pnpm",
+  "version": "1.0.0",
+  "description": "Setup Node & Pnpm - Github Action",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "pnpm",
+    "github",
+    "action"
+  ],
+  "author": "Kevin Abatan <abatan.k@gmail.com>",
+  "license": "MIT"
+}
