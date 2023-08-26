@@ -10,6 +10,10 @@ inputs:
     description: 'Version of Node'
     required: false
     default: 18
+  install-deps:
+    description: 'Install dependencies'
+    required: false
+    default: true
 
 runs:
   using: composite
@@ -40,4 +44,5 @@ runs:
             ${{ runner.os }}-pnpm-store-
 
     - name: Install Dependencies
+      if: ${{ inputs.install-deps }}
       run: pnpm i
