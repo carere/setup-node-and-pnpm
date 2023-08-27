@@ -45,4 +45,5 @@ runs:
 
     - name: Install Dependencies
       if: ${{ inputs.install-deps }}
+      shell: bash
       run: pnpm i
